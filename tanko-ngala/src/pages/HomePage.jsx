@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { Mail } from "lucide-react"
-import picture from '../assets/portfolio_pic.svg';
+import picture from '../assets/picre.jpg';
+import Footer from "../components/Footer";
 
 function Home(){
     return(
@@ -16,12 +17,13 @@ function Home(){
                      about crafting interactive websites and seamless digital experience</em>
                 </p>
                 <Link to="/projects" className="flex items-center text-lg text-white font-bold px-4 py-2 mb-2 bg-purple-600 rounded-2xl transition hover:bg-purple-800">View my work</Link>
-                <Link to="/contact" className="flex items-center text-lg text-white font-bold  gap-4 px-4 py-2 bg-purple-600 rounded-2xl transition hover:bg-purple-8000">
-                <Mail className="w-5 h-5"/>
+                <Link to="/contact" className="flex items-center text-lg mb-20 hover:bg-purple-700 text-white font-bold  gap-2 px-4 py-2 bg-purple-600 rounded-2xl transition hover:bg-purple-8000">
+                <Mail className="w-8 h-8"/>
                 Contact Me
                 </Link>
             </div>
         </div>
+        <Footer />
         </div>
     );
 }
