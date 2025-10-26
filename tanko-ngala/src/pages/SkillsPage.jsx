@@ -5,7 +5,7 @@ function Skills() {
     <div
       className="bg-black min-h-screen text-gray-200 font-poppins py-16 px-6 md:px-12"
     >
-      <h2 className="sm:text-3xl md:text-5xl lg:text-7xl font-bold text-center text-white mb-22">
+      <h2 className="sm:text-3xl md:text-5xl lg:text-7xl mb-40 font-bold text-center text-white mb-22">
         Skills & Tools
       </h2>
 
@@ -58,7 +58,7 @@ function Skills() {
         </div>
       </div>
 
-      <p className="text-center text-gray-400 mt-12 text-sm">
+      <p className=" md:text-xl sm:text-lg text-base text-center text-gray-400 mt-12 text-sm">
         ⚡ Continuously expanding my knowledge in modern web technologies.
       </p>
     </div>
