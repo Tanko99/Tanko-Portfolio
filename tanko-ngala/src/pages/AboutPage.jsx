@@ -1,17 +1,16 @@
-import background from '../assets/bg-pic.jpg';
 
 function AboutMe(){
     return (
-        <div style={{ backgroundImage: `url(${background})`}}
-         className="bg-cover bg-center bg-no-repeat minh-h-screen
-         iext-center flex flex-col px-6 md:px-20 py-10  justify-center font-poppins text-yellow-200">  
+        <div 
+         className="bg-black minh-h-screen
+         iext-center flex flex-col px-6 md:px-20 py-10  justify-center font-poppins text-gray-200">  
         <h1 className="md:text-5xl lg:text-7xl sm:text-3xl text-xl font-bold mb-10 text-center">About Me</h1>
-        <p className=" lg:text-4xl md:text-2xl sm:text-xl mb-4 font-semibold"><q>Looking for a skilled software engineer to turn your 
+        <p className=" lg:text-4xl md:text-xl sm:text-lg mb-6 font-semibold"><q>Looking for a skilled software engineer to turn your 
             ideas into a responsive and intuitive website?
             </q></p>
         <p className="lg:text-4xl md:text-xl sm:text-lg mb-6 ">Hello, I’m <strong>Tanko Fabrice Ngala</strong>, a passionate Front-End
          Web Developer with a strong foundation in modern web technologies and
-          a growing interest in cloud computing.
+          a growing interest in cyber security.
 
          I recently graduated from the ALX Front-End Web Development program, where I 
          mastered core technologies including HTML, CSS, JavaScript, and React. My 
@@ -19,22 +18,21 @@ function AboutMe(){
          offer exceptional user experiences.
          </p>
 
-       <p className="lg:text-3xl md:text-xl sm:text-lg mb-8" > Currently, I’m expanding my skill set by learning Next.js and TypeScript to build scalable, production-ready applications, while exploring AWS Cloud Computing to understand how cloud infrastructure powers modern web solutions.
+       <p className="lg:text-3xl md:text-xl sm:text-lg mb-8" > Currently, I’m expanding my skill set by learning Next.js and TypeScript to build scalable, production-ready websites and web apps. 
 
         I’m driven by creativity and problem-solving — I love transforming ideas into functional digital experiences and continuously improving through hands-on projects.
 
          When I’m not coding, I enjoy exploring new design trends, learning about technology innovation, and sharing knowledge with other developers.
        </p>
        <h2 className="md:text-2xl sm:text-xl text-lg font-bold mb-2">Tech Stack</h2>
-       <ul className="list-disc list-inside space-y-2 text-xl mb-6">
+       <ul className="list-disc list-inside space-y-2 text-2xl mb-6">
         <li>Frontend: HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, TypeScript</li>
-        <li>Tools & Platforms: Git, GitHub, VS Code, Netlify, Vercel, AWS (in progress)</li>
+        <li>Tools & Platforms: Git, GitHub, VS Code, Netlify, Vercel</li>
         <li>Design & Workflow: Figma, Responsive Web Design, Accessibility</li>
        </ul>
        <h3 className="md:text-2xl sm:text-xl mb-2 font-bold">Current focus</h3>
-       <ul className="list-disc list-inside space-y-2 text-xl mb-6">
+       <ul className="list-disc list-inside space-y-2 text-2xl mb-6">
         <li>Mastering Next.js for dynamic web applications</li>
-        <li>Building cloud-integrated frontend apps with AWS</li>
         <li>Expanding my open-source and community contributions</li>
        </ul>
     </div>
