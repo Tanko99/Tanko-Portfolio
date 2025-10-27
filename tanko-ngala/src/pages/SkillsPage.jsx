@@ -1,17 +1,17 @@
-import { Code2, Settings, Cloud, Palette } from "lucide-react";
+import { Code2, Settings, Palette } from "lucide-react";
 
 function Skills() {
   return (
     <div
       className="bg-black min-h-screen text-gray-200 font-poppins py-16 px-6 md:px-12"
     >
-      <h2 className="sm:text-3xl md:text-5xl lg:text-7xl mb-40 font-bold text-center text-white mb-22">
+      <h2 className="sm:text-3xl md:text-5xl lg:text-7xl mb-40 font-bold text-center text-white mb-30">
         Skills & Tools
       </h2>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid sm:grid-col-1 lg:grid-cols-2 gap-15 max-w-6xl mx-auto">
         {/* Front-End Development */}
-        <div className="bg-purple-700 rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300">
+        <div className="bg-purple-800 rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300">
           <div className="flex items-center gap-3 mb-4">
             <Code2 className="text-white w-20 h-20" />
             <h3 className=" font-semibold md:text-3xl sm:text-xl text-white">
@@ -23,11 +23,12 @@ function Skills() {
             <li>TypeScript, React.js, Next.js</li>
             <li>Tailwind CSS, Responsive Design</li>
             <li>API Integration (REST, Axios)</li>
+            <li>Data handling(tanstack query, SWR)</li>
           </ul>
         </div>
 
         {/* Tools & Workflow */}
-        <div className="bg-purple-700 rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300">
+        <div className="bg-purple-800 rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300">
           <div className="flex items-center gap-3 mb-4">
             <Settings className="text-white w-20 h-20" />
             <h3 className="md:text-3xl sm:text-2xl  font-semibold text-white">
@@ -39,21 +40,7 @@ function Skills() {
             <li>VS Code, Node.js, npm</li>
             <li>Figma, Chrome DevTools</li>
             <li>ESLint, Prettier</li>
-          </ul>
-        </div>
-
-        {/* Cloud & Design */}
-        <div className="bg-purple-700 rounded-2xl p-6 shadow-md hover:shadow-xl transition-all duration-300">
-          <div className="flex items-center gap-3 mb-4">
-            <Cloud className="text-white w-20 h-20" />
-            <h3 className="md:text-3xl sm:xl  font-semibold text-white">
-              Cloud & Design
-            </h3>
-          </div>
-          <ul className="space-y-2 list-disc list-insidetext-lg text-gray-300">
-            <li>AWS Cloud Basics (S3, EC2)</li>
-            <li>Vercel & Netlify Deployment</li>
-            <li>Canva, Figma, Branding</li>
+            <li>Vercel and Netlify</li>
           </ul>
         </div>
       </div>
