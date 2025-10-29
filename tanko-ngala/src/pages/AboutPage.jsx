@@ -25,13 +25,13 @@ function AboutMe(){
          When I’m not coding, I enjoy exploring new design trends, learning about technology innovation, and sharing knowledge with other developers.
        </p>
        <h2 className="md:text-2xl sm:text-xl text-lg font-bold mb-2">Tech Stack</h2>
-       <ul className="list-disc list-inside space-y-2 text-2xl mb-6">
+       <ul className="list-disc list-inside space-y-2 md:text-2xl text-lg mb-6">
         <li>Frontend: HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, TypeScript</li>
         <li>Tools & Platforms: Git, GitHub, VS Code, Netlify, Vercel</li>
         <li>Design & Workflow: Figma, Responsive Web Design, Accessibility</li>
        </ul>
        <h3 className="md:text-2xl sm:text-xl mb-2 font-bold">Current focus</h3>
-       <ul className="list-disc list-inside space-y-2 text-2xl mb-6">
+       <ul className="list-disc list-inside space-y-2 md:text-2xl text-lg mb-6">
         <li>Mastering Next.js for dynamic web applications</li>
         <li>Expanding my open-source and community contributions</li>
        </ul>
