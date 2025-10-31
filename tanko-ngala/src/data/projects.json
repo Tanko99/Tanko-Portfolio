@@ -1,0 +1,13 @@
+[
+    {
+    "id": 1,
+    "thumbnail": "/assets/ServiceFinder.png",
+    "title": "Service Finder App",
+    "description": "A modern web application that helps users discover and connect with local service providers efficiently. Featuring category-based search, real-time filtering, and a user-friendly interface, it demonstrates practical use of React, Tailwind CSS, and dynamic data handling.",
+    "techStack": ["ReactJS", "Tailwind CSS", "Git and GitHub", "VS code" ],
+    "demoLink": "https://alx-fe-capstone-sable.vercel.app/",
+    "repoLink": "https://github.com/Tanko99/my-capstone"
+    }
+
+
+]

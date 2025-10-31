@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { Mail, Download } from "lucide-react"
-import picture from '../assets/picre.jpg';
+import picture from '../assets/my-pic.jpg';
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
