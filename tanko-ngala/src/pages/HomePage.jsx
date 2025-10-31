@@ -15,7 +15,7 @@ function Home(){
                         <img src={picture} alt="portfolio illustrator" className="rounded-full" />
                     </div>
                     <div className="w-60 md:w-1/2">
-                        <h1 className="md:text-5xl lg:text-6xl sm:text-3xl text-2xl  mt-6 font-extrabold md:text-left">Bringing Ideas to Life Through Code and Design.</h1>
+                        <h1 className="md:text-5xl lg:text-6xl sm:text-3xl text-2xl  mt-6 font-bold md:text-left">Bringing Ideas to Life Through Code and Design.</h1>
                          <p className="md:text-2xl sm:text-xl text-lg mt-8 mb-8 font-semibold">Hi, I'm <strong>Tanko Fabrice Ngala</strong> a frontend web developer and a cyber security enthusiast, passionate
                         about crafting interactive websites and seamless digital experiences!
                 </p>
