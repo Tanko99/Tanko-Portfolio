@@ -19,7 +19,7 @@ function ThemeToggle(){
         <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
         className="p-2 rounded-fullborder border-gray-300 " >
             {theme === "dark" ? (
-                <Sun className="w-8 h-8"  />
+                <Sun className="w-5 h-5"  />
             ) : (
                 <Moon className="w-8 h-8"  />
             )}

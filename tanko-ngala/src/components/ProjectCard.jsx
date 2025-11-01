@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ArrowDown } from "lucide-react";
 
 const ProjectCard = ({ thumbnail, title, description, 
     techStack, demoLink, repoLink }) => {
@@ -6,7 +7,7 @@ const ProjectCard = ({ thumbnail, title, description,
         const toggleExpand = () => setIsExpanded(!isExpanded);
 
         return (
-            <div className="mt-6 overflow-hidden flex flex-col font-poppins items-center justify-center 
+            <div className="my-6 overflow-hidden flex flex-col font-poppins items-center justify-center 
             transition-transform hover:scale-105 duration-300">
                 <img src={thumbnail} alt={title} className="w-full h-90 object-cover" />
                 <div>
@@ -26,11 +27,11 @@ const ProjectCard = ({ thumbnail, title, description,
                            
                            <div className="flex flex-col p-4">
                             <a href={demoLink} target="_blank" className="
-                            text-lg md:text-xl text-purple-600 text-center hover:underline">
+                            text-lg md:text-xl text-blue-600 text-center hover:underline">
                                 Visit site
                             </a>
                             <a href={repoLink} target="_blank" className="
-                            text-lg md:text-xl text-purple-600 hover:underline text-center">
+                            text-lg md:text-xl text-blue-600 hover:underline text-center">
                                 View repository
                             </a>
                            </div>
@@ -38,8 +39,8 @@ const ProjectCard = ({ thumbnail, title, description,
                     )}
                 </div>
                 <button onClick={toggleExpand} className=" 
-                px-2 py-2 bg-purple-700 hover:bg-blue-700 rounded-xl cursor-pointer text-lg font-bold mt-4">
-                    {isExpanded ? "Show less" : 'Read more'}
+                px-2 py-2 bg-gray-900 text-gray-200 dark:bg-gray-200 dark:text-gray-900 rounded-xl px-4 py-2 flex my-4">
+                    {isExpanded ? "Show less"  : 'Read more' } <ArrowDown  className="w-5 h-5" />
                 </button>
             </div>
         );
