@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArrowDown } from "lucide-react";
+import { ArrowBigDown } from "lucide-react";
 
 const ProjectCard = ({ thumbnail, title, description, 
     techStack, demoLink, repoLink }) => {
@@ -40,7 +40,7 @@ const ProjectCard = ({ thumbnail, title, description,
                 </div>
                 <button onClick={toggleExpand} className=" 
                 px-2 py-2 bg-gray-900 text-gray-200 dark:bg-gray-200 dark:text-gray-900 rounded-xl px-4 py-2 flex my-4">
-                    {isExpanded ? "Show less"  : 'Read more' } <ArrowDown  className="w-5 h-5" />
+                    {isExpanded ? "Show less"  : 'Read more' } <ArrowBigDown  className="w-5 h-5" />
                 </button>
             </div>
         );
