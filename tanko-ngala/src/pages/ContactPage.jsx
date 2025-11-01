@@ -36,7 +36,7 @@ function ContactMe (){
 
 
     return (
-        <div className="bg-black min-h-screen text-gray-200 mx-auto font-poppins">
+        <div className="bg-white  min-h-screen dark:bg-gray-900 dark:text-gray-200S text-gray-900  dark:text-gray-200 mx-auto font-poppins">
         <Formik 
         initialValues={{ subject: '', name: '', email: '', message: ''}}
         validationSchema={ validationSchema }
@@ -50,29 +50,29 @@ function ContactMe (){
                     <div className="flex flex-col">
                         <label htmlFor="subject" className="md:text-xl sm:text-lg text-base text-center mb-2">Subject</label>
                         <Field id="subject" type="text" name="subject" 
-                          className="px-4 py-2 w-60 md:w-96 sm:w-64 mb-6 focus:border-purple-600 
-                          focus:ring-2 focus:ring-purple-600 focus:outline-none rounded-lg "/>
+                          className="px-4 py-2 border-green-600 w-60 md:w-96 sm:w-64 mb-6 focus:border-purple-600 
+                          focus:ring-2 focus:ring-green-600 focus:outline-none rounded-lg "/>
                         <ErrorMessage name="subject" component="p" className="md:text-xl text-base text-red-600" />
                     </div>
                     <div className="flex flex-col">
                         <label htmlFor="name" className="md:text-xl sm:text-lg text-base text-center mb-2">Name</label>
                         <Field id="name" type="text" name="name" 
-                         className="px-4 py-2 w-60 md:w-96 sm:w-64 mb-6 focus:border-purple-600 
-                          focus:ring-2 focus:ring-purple-600 focus:outline-none rounded-lg " />
+                         className="px-4 py-2 w-60 md:w-96 sm:w-64 mb-6 focus:border-gren-600 border-green-600 
+                          focus:ring-2 focus:ring-green-600 focus:outline-none rounded-lg " />
                         <ErrorMessage name="name" component="p" className="md:text-xl text-base text-red-600" />
                     </div>
                     <div className="flex flex-col">
                         <label htmlFor="email" className="md:text-xl sm:text-lg text-base text-center mb-2">Email</label>
                         <Field id="email" type="email" name="email" 
-                         className="px-4 py-2 w-60 md:w-96 sm:w-64 mb-6 focus:border-purple-600 
-                          focus:ring-2 focus:ring-purple-600 focus:outline-none rounded-lg "  />
+                         className="px-4 py-2 w-60 md:w-96 sm:w-64 mb-6 focus:border-green-600 border-green-600
+                          focus:ring-2 focus:ring-green-600 focus:outline-none rounded-lg "  />
                         <ErrorMessage name="email" component="p" className="md:text-xl text-base text-red-600" />
                     </div>
                     <div className="flex flex-col " >
                         <label htmlFor="message" className="md:text-xl sm:text-lg text-base text-center mb-2">Message</label>
                          <Field id="message" as="textarea" name="message"  maxLength="2000"
-                          className="p-10 w-60 md:w-96 sm:w-64 mb-6 focus:border-purple-600 
-                          focus:ring-2 focus:ring-purple-600 focus:outline-none rounded-lg " />
+                          className="p-10 w-60 md:w-96 sm:w-64 mb-6 focus:border-green-600 border-green-600
+                          focus:ring-2 focus:ring-green-600 focus:outline-none rounded-lg " />
                          <ErrorMessage name="message" component="p" className="md:text-xl text-base  text-red-600"  />
                     </div>
                     {feedback.message && (
@@ -81,7 +81,7 @@ function ContactMe (){
                             {feedback.message}
                        </div>
                    )}
-                    <button className="px-4 py-2 bg-purple-700 mb-20 md:text-2xl smtext:xl text-lg w-60 md:w-96 sm:w-64 
+                    <button className="px-4 py-2 bg-gray-900 dark:bg-gray-300 text-gray-200 dark:text-gary-900 mb-20 md:text-2xl smtext:xl text-lg w-60 md:w-96 sm:w-64 
                     rounded-3xl font-bold" type="submit">Send message</button>
                     
                 </Form>

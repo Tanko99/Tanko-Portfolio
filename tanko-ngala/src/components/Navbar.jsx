@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ThemeToggle from "./Themetoggle";
 import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
@@ -13,10 +14,12 @@ function Navbar() {
       style={{ backgroundImage: `url(${background})` }}
       className="bg-cover bg-center bg-no-repeat flex items-center justify-between px-6 py-4 text-white font-poppins relative"
     >
+    
       {/* Logo */}
-      <div className="flex items-center">
+      <div className="flex items-center gap-2">
         <img src={logo} alt="My Logo" className="rounded-full w-20 h-20" />
-        <span className="text-center md:text-4xl sm:text-3xl text-2xl">
+        <ThemeToggle />
+        <span className="text-center md:text-4xl sm:text-3xl text-2xl text-accent">
             My Portfolio
         </span>
       </div>
